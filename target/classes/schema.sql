@@ -1,0 +1,12 @@
+CREATE TABLE user(
+  id INT PRIMARY KEY,
+  user_name VARCHAR(250) NOT NULL,
+  role VARCHAR(250) NOT NULL
+);
+
+CREATE TABLE job_publisher(
+  id INT PRIMARY KEY,
+  topic VARCHAR(250) NOT NULL,
+  message VARCHAR(250) NOT NULL,
+  status VARCHAR(250) NOT NULL
+);
